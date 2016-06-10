@@ -13,6 +13,6 @@ this vagrant vm is provided to quickly setup a [loris imageserver](http://github
 2. `cd loris-vagrant`
 3. `vagrant up`
 
-once the vagrant machine is started, loris will be at [http://localhost:5004/loris/](http://localhost:5004/loris/], serving files placed in the `loris-vagrant/images/` directory.
+once the vagrant machine is started, loris will be at [http://localhost:5004/loris/](http://localhost:5004/loris/), serving files placed in the `loris-vagrant/images/` directory.
 
-you can shell into the machine with `vagrant ssh` or `ssh -p 2222 vagrant@localhost`
+you can connect to the machine with `vagrant ssh` or `ssh -p 2222 vagrant@localhost`
